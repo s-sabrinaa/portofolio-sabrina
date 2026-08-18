@@ -37,10 +37,6 @@ export default function Navbar() {
         <Link href="/certificates" className="hover:text-gray-300 transition">
           Certificates
         </Link>
-
-        <Link href="/about" className="hover:text-gray-300 transition">
-          About
-        </Link>
       </div>
 
       {/* Hamburger */}
@@ -72,10 +68,6 @@ export default function Navbar() {
 
           <Link href="/certificates" onClick={() => setIsOpen(false)}>
             Certificates
-          </Link>
-
-          <Link href="/about" onClick={() => setIsOpen(false)}>
-            About
           </Link>
         </div>
       </div>
