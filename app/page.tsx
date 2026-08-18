@@ -194,7 +194,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center lg:justify-start">
             <a
-              href="/cv/CV - Sabrina Alifia Putri Mentari.pdf"
+              href="/cv/CV - Sabrina.pdf"
               download
               className="px-6 py-3 bg-black text-white rounded-full transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_8px_#ffffff] text-center"
             >
@@ -433,14 +433,6 @@ export default function Home() {
           >
             <Dot />
             Certificates
-          </Link>
-
-          <Link
-            href="/about"
-            className="flex items-center gap-2 hover:text-cyan-400 transition"
-          >
-            <Dot />
-            About
           </Link>
         </div>
 
